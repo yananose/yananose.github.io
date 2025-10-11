@@ -1,3 +1,3 @@
 include:
-  - .well-known
-  - dev/.well-known
+  - pcheten/.well-known
+  - pcheten-dev/.well-known
