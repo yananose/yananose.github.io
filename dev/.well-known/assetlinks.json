@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.omochaya.pcheten",
+      "sha256_cert_fingerprints":
+        ["78:EE:2A:44:FE:DB:A6:F3:E8:87:7A:D4:8D:A8:14:36:A7:9B:84:51:C4:95:C8:5E:0B:EE:93:BF:B4:56:AA:98"]
+    }
+  }
+]
