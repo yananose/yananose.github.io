@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>街のおもちゃ屋さん「ぷちっと♪英単語」</title>
+  <script>
+
+const userAgent = navigator.userAgent;
+const redirectUrl = {
+    android: 'https://play.google.com/store/apps/details?id=com.omochaya.pcheten&hl=ja', // AndroidのストアURL
+    // ios: 'https://apps.apple.apple.com/jp/app/id123456789' // iOSのストアURL
+};
+
+if (/Android/i.test(userAgent)) {
+    window.location.replace(redirectUrl.android);
+} else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+    // window.location.replace(redirectUrl.ios);
+}
+
+  </script>
+</head>
+<body>
+  <p>Android版「ぷちっと♪英単語」のインストールはこちらから</p>
+  <a href="https://play.google.com/store/apps/details?id=com.omochaya.pcheten&hl=ja">https://play.google.com/store/apps/details?id=com.omochaya.pcheten&hl=ja</a>
+</body>
+</html>
