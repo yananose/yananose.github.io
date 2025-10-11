@@ -1,3 +1,2 @@
 include:
-  - 'pcheten/.well-known/'
-  - 'pcheten-dev/.well-known/'
+  - '.well-known'
